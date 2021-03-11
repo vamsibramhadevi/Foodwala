@@ -1,0 +1,169 @@
+
+body
+{
+	margin:0px;
+}
+
+       /*   Main header*/
+
+header h1
+{
+   margin: 0px;
+   padding: 10px;
+   color: white;
+   text-align: right;
+   font-size: 45px;
+}
+header
+{
+background: url(../images/FH2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+padding: 50px;
+
+}
+
+/*   Main nav*/
+
+nav 
+{
+	background:linear-gradient(45deg,white,rgb(80,57,45));
+	padding: 7px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	
+
+	
+}
+nav a
+{
+	text-decoration: none;
+	background-color:rgb(27,50,23);
+	color: white;
+	padding: 5px;
+	margin: 10px 20px;
+	border-radius: 10px;
+	box-shadow:0 0 10px black;
+	display:inline-block;
+}
+nav a:hover
+{
+	background-color: green;
+	box-shadow: 0 0 10px white;
+}
+                 
+                 /*   Main-img*/
+#main-img
+{
+  background:url(../images/spain.jpg);
+  margin:20px 6px;
+  height: 350px;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  color: white;
+}                 
+#main-img h1
+{
+	text-align: center;
+	font-size: 50px;
+	color:white;
+}
+
+           /*  Food-details*/
+
+#food-details article
+{
+	width: 375px;
+	text-align: center;
+	display: inline-block;
+	box-shadow:0 0 10px;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#food-details article:hover
+{
+   transform:scale(1.2,1.2);
+
+}
+article img
+{
+	width: 300px;
+	border-radius: 20px;
+}
+
+ /*   Food-img*/
+
+#food-img article
+{
+	width: 300px;
+	text-align: center;
+    display: inline-block;
+    box-shadow:0 0 10px;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#food-img article:hover
+{
+ transform:scale(1.1,1.1);
+}
+
+ /*   ABOUT*/
+
+#ABOUT h1,#CONTACT h1,#food h1
+{
+	text-align: center;
+	background:linear-gradient(45deg,white,black,darkred,black,white);
+	color: white;
+
+} 
+#ABOUT p
+{
+	display:flex;
+	justify-content: space-around;
+	font-size: 15px;
+
+}
+#ab-img
+{
+ display: inline-block;
+
+}
+#ab-img img
+{
+height: 200px;
+ width: 249px;	
+}
+#ab-img img:hover
+{
+	transform:scale(1.1,1.1);
+}
+
+/*   CONTACT*/
+
+#CONTACT
+{
+
+}
+
+/*   FOOTER*/
+
+footer
+{
+	background:linear-gradient(45deg,white,rgb(80,57,45));
+	padding: 7px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	
+}
+.icon i
+{
+   font-size: 30px;
+   margin-top: 10px;
+   padding: 5px;
+
+}
